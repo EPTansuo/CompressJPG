@@ -2,7 +2,7 @@
 
 mkdir outpath 
 
-find . -maxdepth 1 -size +1M  -name "*.jpg" -print  -exec convert {} ./output/{} \;
+find . -maxdepth 1 -size +1M  -iname "*.jpg" -print  -exec convert {} ./output/{} \;
 
 
 

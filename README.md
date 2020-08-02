@@ -6,7 +6,7 @@ Using ImageMagick to compress JPG files
 ```
 git clone https://github.com/EPTansuo/CompressJPG.git
 cd CompressJPG
-sudo mv compressJPG.sh /bin/compressJPG
+sudo mv compressJPG.sh /usr/bin/compressJPG
 ```
 
 **If you do not have ImageMagick installed, please enter the following command to install**
